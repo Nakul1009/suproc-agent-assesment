@@ -1,218 +1,551 @@
 [
   {
     "id": "PRO-001",
-    "name": "Arjun Kumar",
-    "role": "Packaging Designer",
-    "skills": ["CAD", "packaging design", "sustainable design", "prototyping"],
-    "locations": ["Karnataka", "Bengaluru"],
-    "rating": 4.9,
-    "reputation": "excellent",
-    "rate_per_hour": 1500,
-    "availability_hours_per_week": 40,
-    "startup_friendly": true,
-    "description": "Experienced packaging engineer specializing in biodegradable materials and CAD modelling.",
-    "availability": true
+    "name": "Ananya Rao",
+    "entity_type": "professional",
+    "skills": [
+      "packaging design",
+      "sustainable materials",
+      "product prototyping"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "experience_years": 7,
+    "certifications": [
+      "Certified Packaging Professional"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1800,
+    "rate_currency": "INR",
+    "rating": 4.8,
+    "completed_projects": 32,
+    "languages": [
+      "English",
+      "Kannada"
+    ],
+    "status": "active",
+    "bio": "Packaging design consultant specializing in biodegradable and compostable food packaging for startups."
   },
   {
     "id": "PRO-002",
-    "name": "Deepa Sundaram",
-    "role": "Supply Chain Expert",
-    "skills": ["logistics", "procurement", "vendor audit", "sustainable supply chain"],
-    "locations": ["Tamil Nadu", "Chennai"],
-    "rating": 4.7,
-    "reputation": "good",
-    "rate_per_hour": 2200,
-    "availability_hours_per_week": 20,
-    "startup_friendly": true,
-    "description": "Expert in setting up sustainable vendor networks and supply chains in South India.",
-    "availability": true
+    "name": "Vishal Menon",
+    "entity_type": "professional",
+    "skills": [
+      "food safety auditing",
+      "FSSAI compliance",
+      "quality assurance"
+    ],
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "experience_years": 10,
+    "certifications": [
+      "FSSAI Certified Auditor",
+      "HACCP"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 2200,
+    "rate_currency": "INR",
+    "rating": 4.9,
+    "completed_projects": 58,
+    "languages": [
+      "English",
+      "Tamil"
+    ],
+    "status": "active",
+    "bio": "Independent food safety auditor helping food-tech startups pass FSSAI and export compliance checks."
   },
   {
     "id": "PRO-003",
-    "name": "Rajesh Rao",
-    "role": "Quality Assurance Auditor",
-    "skills": ["iso audits", "food-grade testing", "quality control"],
-    "locations": ["Karnataka", "Mysore"],
+    "name": "Priya Iyer",
+    "entity_type": "professional",
+    "skills": [
+      "supply chain consulting",
+      "vendor sourcing"
+    ],
+    "location": {
+      "city": null,
+      "state": "South India (multiple states)",
+      "country": "India"
+    },
+    "experience_years": 9,
+    "certifications": [
+      "CSCP"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 2500,
+    "rate_currency": "INR",
     "rating": 4.5,
-    "reputation": "good",
-    "rate_per_hour": 1800,
-    "availability_hours_per_week": 15,
-    "startup_friendly": true,
-    "description": "Auditor specializing in food safety standards, ISO certifications, and supplier quality checks.",
-    "availability": true
+    "completed_projects": 41,
+    "languages": [
+      "English",
+      "Tamil",
+      "Telugu"
+    ],
+    "status": "active",
+    "bio": "Supply chain consultant working across South Indian states; profile lists a multi-state region instead of a single base city."
   },
   {
     "id": "PRO-004",
-    "name": "Meera Nair",
-    "role": "Biodegradable Materials Scientist",
-    "skills": ["bioplastics", "PLA research", "material characterization"],
-    "locations": ["Kerala", "Kochi"],
-    "rating": 4.9,
-    "reputation": "excellent",
-    "rate_per_hour": 3000,
-    "availability_hours_per_week": 10,
-    "startup_friendly": true,
-    "description": "PhD researcher specializing in plant-starch polymers and composting validation.",
-    "availability": true
+    "name": "Rohan Deshmukh",
+    "entity_type": "professional",
+    "skills": [
+      "web development",
+      "React",
+      "Node.js"
+    ],
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "experience_years": 5,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1500,
+    "rate_currency": "INR",
+    "rating": 4.6,
+    "completed_projects": 27,
+    "languages": [
+      "English",
+      "Marathi",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Full-stack web developer building dashboards and internal tools for startups."
   },
   {
     "id": "PRO-005",
-    "name": "Siddharth Reddy",
-    "role": "Packaging Designer",
-    "skills": ["structural engineering", "CAD", "rendering"],
-    "locations": ["Telangana", "Hyderabad"],
-    "rating": 4.2,
-    "reputation": "average",
-    "rate_per_hour": 1200,
-    "availability_hours_per_week": 30,
-    "startup_friendly": false,
-    "description": "Freelance packaging and box designer. Fast turnaround.",
-    "availability": true
+    "name": "Meera Nair",
+    "entity_type": "professional",
+    "skills": [
+      "graphic design",
+      "branding",
+      "packaging artwork"
+    ],
+    "location": {
+      "city": "Kochi",
+      "state": "Kerala",
+      "country": "India"
+    },
+    "experience_years": 6,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1200,
+    "rate_currency": "INR",
+    "rating": 4.7,
+    "completed_projects": 65,
+    "languages": [
+      "English",
+      "Malayalam"
+    ],
+    "status": "active",
+    "bio": "Freelance graphic designer specializing in sustainable brand identity and packaging artwork."
   },
   {
     "id": "PRO-006",
-    "name": "Sneha Patil",
-    "role": "Supply Chain Expert",
-    "skills": ["sourcing", "negotiation", "contracts"],
-    "locations": ["Maharashtra", "Mumbai"],
-    "rating": 4.4,
-    "reputation": "good",
-    "rate_per_hour": 2500,
-    "availability_hours_per_week": 25,
-    "startup_friendly": false,
-    "description": "Procurement specialist focused on enterprise packaging contracts.",
-    "availability": true
+    "name": "Arjun Kapoor",
+    "entity_type": "professional",
+    "skills": [
+      "procurement law",
+      "contract drafting",
+      "vendor agreements"
+    ],
+    "location": {
+      "city": "Gurugram",
+      "state": "Delhi NCR",
+      "country": "India"
+    },
+    "experience_years": 12,
+    "certifications": [
+      "Bar Council of India"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 4000,
+    "rate_currency": "INR",
+    "rating": 4.8,
+    "completed_projects": 73,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Commercial lawyer specializing in procurement contracts and supplier agreements."
   },
   {
     "id": "PRO-007",
-    "name": "Gautam Sen",
-    "role": "Logistics Consultant",
-    "skills": ["freight", "warehousing", "customs"],
-    "locations": ["West Bengal", "Kolkata"],
-    "rating": 4.0,
-    "reputation": "average",
-    "rate_per_hour": 2000,
-    "availability_hours_per_week": 8,
-    "startup_friendly": true,
-    "description": "Consultant for domestic and international logistics operations.",
-    "availability": true
+    "name": "Sneha Gupta",
+    "entity_type": "professional",
+    "skills": [
+      "accounting",
+      "bookkeeping",
+      "GST compliance"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "experience_years": 8,
+    "certifications": [
+      "Chartered Accountant"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 2000,
+    "rate_currency": "INR",
+    "rating": 4.6,
+    "completed_projects": 90,
+    "languages": [
+      "English",
+      "Hindi",
+      "Kannada"
+    ],
+    "status": "active",
+    "bio": "Chartered accountant serving early-stage startups with bookkeeping and GST filing."
   },
   {
     "id": "PRO-008",
-    "name": "Ananya Joshi",
-    "role": "Product Designer",
-    "skills": ["UI/UX", "web design"],
-    "locations": ["Karnataka", "Bengaluru"],
-    "rating": 4.8,
-    "reputation": "excellent",
-    "rate_per_hour": 2800,
-    "availability_hours_per_week": 35,
-    "startup_friendly": true,
-    "description": "Digital product designer for web platforms. NOT a physical packaging designer.",
-    "availability": true
+    "name": "Kiran Balakrishnan",
+    "entity_type": "professional",
+    "skills": [
+      "sustainability consulting",
+      "ESG reporting",
+      "carbon footprint analysis"
+    ],
+    "location": {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "experience_years": 11,
+    "certifications": [
+      "GRI Certified"
+    ],
+    "availability": {
+      "status": "busy",
+      "available_from": "2026-08-15"
+    },
+    "hourly_rate": 3000,
+    "rate_currency": "INR",
+    "rating": 4.9,
+    "completed_projects": 39,
+    "languages": [
+      "English",
+      "Tamil"
+    ],
+    "status": "active",
+    "bio": "Sustainability consultant helping manufacturers reduce environmental impact; currently booked on an existing engagement."
   },
   {
     "id": "PRO-009",
-    "name": "Karthik Raja",
-    "role": "Packaging Designer",
-    "skills": ["sustainable design", "structural engineering"],
-    "locations": ["Tamil Nadu", "Chennai"],
-    "rating": 4.6,
-    "reputation": "good",
-    "rate_per_hour": 1600,
-    "availability_hours_per_week": 0,
-    "startup_friendly": true,
-    "description": "Dedicated sustainable packaging engineer. Currently fully booked (0 hours/week availability).",
-    "availability": false
+    "name": "Divya Reddy",
+    "entity_type": "professional",
+    "skills": [
+      "logistics coordination",
+      "last-mile delivery planning"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    },
+    "experience_years": 6,
+    "certifications": [],
+    "availability": {
+      "status": "unavailable",
+      "available_from": null
+    },
+    "hourly_rate": 1700,
+    "rate_currency": "INR",
+    "rating": 4.3,
+    "completed_projects": 22,
+    "languages": [
+      "English",
+      "Telugu"
+    ],
+    "status": "active",
+    "bio": "Logistics coordinator; currently on extended leave and not accepting new engagements."
   },
   {
     "id": "PRO-010",
-    "name": "Incomplete Professional",
-    "role": "Consultant",
-    "skills": ["consulting"],
-    "locations": ["Karnataka"],
-    "description": "General business consultant. Missing rate_per_hour and rating.",
-    "availability": true
+    "name": "Farhan Sheikh",
+    "entity_type": "professional",
+    "skills": [
+      "quality assurance",
+      "supplier inspection"
+    ],
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "experience_years": 4,
+    "certifications": [
+      "Six Sigma Green Belt"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": null,
+    "rate_currency": null,
+    "rating": 4.2,
+    "completed_projects": 15,
+    "languages": [
+      "English",
+      "Tamil"
+    ],
+    "status": "active",
+    "bio": "QA inspector for manufacturing suppliers; rate card not yet published on the platform."
   },
   {
     "id": "PRO-011",
-    "name": "Duplicate Professional",
-    "role": "QA Analyst",
-    "skills": ["testing"],
-    "locations": ["Kerala", "Kochi"],
-    "rating": 4.2,
-    "reputation": "good",
-    "rate_per_hour": 1400,
-    "availability_hours_per_week": 20,
-    "description": "Details about duplicate QA analyst.",
-    "availability": true
+    "name": "Neha Shah",
+    "entity_type": "professional",
+    "skills": [
+      "industrial design",
+      "CAD modeling"
+    ],
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India"
+    },
+    "experience_years": 9,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 2100,
+    "rate_currency": "INR",
+    "rating": 4.5,
+    "completed_projects": 44,
+    "languages": [
+      "English",
+      "Gujarati",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Industrial designer specializing in product form and CAD prototyping for manufacturing clients."
   },
   {
-    "id": "PRO-011",
-    "name": "Duplicate Professional",
-    "role": "QA Analyst",
-    "skills": ["testing"],
-    "locations": ["Kerala", "Kochi"],
-    "rating": 4.2,
-    "reputation": "good",
-    "rate_per_hour": 1400,
-    "availability_hours_per_week": 20,
-    "description": "Details about duplicate QA analyst.",
-    "availability": true
+    "id": "PRO-012",
+    "name": "Aditya Singh",
+    "entity_type": "professional",
+    "skills": [
+      "marketing strategy",
+      "D2C growth",
+      "performance marketing"
+    ],
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "experience_years": 6,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1900,
+    "rate_currency": "INR",
+    "rating": 4.4,
+    "completed_projects": 51,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Growth marketing consultant for D2C and export-focused startups."
   },
   {
     "id": "PRO-013",
-    "name": "Amit Sharma",
-    "role": "Packaging Designer",
-    "skills": ["CAD", "packaging design"],
-    "locations": ["Delhi"],
-    "rating": 4.3,
-    "reputation": "good",
-    "rate_per_hour": 1300,
-    "availability_hours_per_week": 40,
-    "startup_friendly": true,
-    "description": "Experienced packaging professional in Delhi NCR.",
-    "availability": true
+    "name": "Lakshmi Venkatesh",
+    "entity_type": "professional",
+    "skills": [
+      "translation",
+      "localization"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "experience_years": 5,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 900,
+    "rate_currency": "INR",
+    "rating": 4.6,
+    "completed_projects": 76,
+    "languages": [
+      "English",
+      "Tamil",
+      "Kannada",
+      "Telugu"
+    ],
+    "status": "active",
+    "bio": "Translator and localization specialist for English-Tamil-Kannada-Telugu business documents."
   },
   {
     "id": "PRO-014",
-    "name": "Lakshmi Rao",
-    "role": "Materials Scientist",
-    "skills": ["compostability", "biodegradability testing"],
-    "locations": ["Telangana", "Hyderabad"],
-    "rating": 4.7,
-    "reputation": "excellent",
-    "rate_per_hour": 2400,
-    "availability_hours_per_week": 12,
-    "startup_friendly": true,
-    "description": "Compostability validation and standards compliance engineer.",
-    "availability": true
+    "name": "Karan Malhotra",
+    "entity_type": "professional",
+    "skills": [
+      "HR recruiting",
+      "talent sourcing"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "experience_years": 7,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1600,
+    "rate_currency": "INR",
+    "rating": 4.3,
+    "completed_projects": 60,
+    "languages": [
+      "English",
+      "Hindi",
+      "Marathi"
+    ],
+    "status": "active",
+    "bio": "Independent recruiter for startup hiring across tech and operations roles."
   },
   {
     "id": "PRO-015",
-    "name": "Vikram Seth",
-    "role": "Industrial Engineer",
-    "skills": ["automation", "factory optimization"],
-    "locations": ["Karnataka", "Bengaluru"],
-    "rating": 4.1,
-    "reputation": "average",
-    "rate_per_hour": 1900,
-    "availability_hours_per_week": 30,
-    "startup_friendly": false,
-    "description": "Automation engineer for large scale factories.",
-    "availability": true
+    "name": "Ritu Chawla",
+    "entity_type": "professional",
+    "skills": [
+      "financial analysis",
+      "fundraising support"
+    ],
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi NCR",
+      "country": "India"
+    },
+    "experience_years": 2,
+    "certifications": [
+      "CFA Level 2"
+    ],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 2800,
+    "rate_currency": "INR",
+    "rating": 4.7,
+    "completed_projects": 19,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Financial analyst with 15 years of experience supporting startup fundraising and financial modeling.",
+    "notes": "CONFLICTING DATA: structured field experience_years = 2, but the bio text claims 15 years of experience. The two sources disagree."
   },
   {
     "id": "PRO-016",
-    "name": "Ambiguous Professional",
-    "role": "Designer",
-    "skills": ["design"],
-    "locations": ["South India"],
-    "rating": 4.2,
-    "reputation": "good",
-    "rate_per_hour": 1500,
-    "availability_hours_per_week": 15,
-    "description": "Creative designer specializing in various eco-friendly packaging templates.",
-    "availability": true
+    "name": "Rohan Deshmukh",
+    "entity_type": "professional",
+    "skills": [
+      "web development",
+      "React",
+      "Node.js"
+    ],
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "experience_years": 5,
+    "certifications": [],
+    "availability": {
+      "status": "available",
+      "available_from": null
+    },
+    "hourly_rate": 1650,
+    "rate_currency": "INR",
+    "rating": 4.6,
+    "completed_projects": 29,
+    "languages": [
+      "English",
+      "Marathi",
+      "Hindi"
+    ],
+    "status": "active",
+    "bio": "Full-stack web developer building dashboards and internal tools for startups.",
+    "notes": "DUPLICATE RECORD: same person/profile as PRO-004, re-listed with a slightly different hourly_rate and completed_projects count."
+  },
+  {
+    "id": "PRO-017",
+    "name": "Suresh Pillai",
+    "entity_type": "professional",
+    "skills": [
+      "electrical engineering",
+      "equipment installation"
+    ],
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "experience_years": 14,
+    "certifications": [
+      "Chartered Engineer"
+    ],
+    "availability": {
+      "status": "unavailable",
+      "available_from": null
+    },
+    "hourly_rate": 2400,
+    "rate_currency": "INR",
+    "rating": 4.5,
+    "completed_projects": 85,
+    "languages": [
+      "English",
+      "Tamil"
+    ],
+    "status": "inactive",
+    "bio": "Electrical engineer; account marked inactive after leaving the platform in 2025.",
+    "notes": "INVALID/UNAVAILABLE ENTITY: status is 'inactive' and must not be recommended."
   }
 ]

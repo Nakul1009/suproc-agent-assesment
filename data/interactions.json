@@ -1,0 +1,152 @@
+[
+  {
+    "id": "INT-001",
+    "entity_id": "SUP-001",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 5,
+    "date": "2026-03-12",
+    "comment": "Delivered ahead of schedule, excellent quality."
+  },
+  {
+    "id": "INT-002",
+    "entity_id": "SUP-001",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 4,
+    "date": "2025-11-02",
+    "comment": "Good quality, minor delay of 2 days."
+  },
+  {
+    "id": "INT-003",
+    "entity_id": "SUP-002",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 4,
+    "date": "2026-01-20",
+    "comment": "Reliable supplier, consistent quality."
+  },
+  {
+    "id": "INT-004",
+    "entity_id": "SUP-009",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 5,
+    "date": "2026-02-15",
+    "comment": "Best packaging supplier we've worked with on the platform."
+  },
+  {
+    "id": "INT-005",
+    "entity_id": "SUP-018",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 5,
+    "date": "2026-04-01",
+    "comment": "Exceptional startup-friendly service, small batch worked perfectly."
+  },
+  {
+    "id": "INT-006",
+    "entity_id": "SUP-014",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 3,
+    "date": "2025-09-10",
+    "comment": "Product fine but buyer had to independently verify food-grade compliance since no certificate was provided."
+  },
+  {
+    "id": "INT-007",
+    "entity_id": "SUP-025",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "review",
+    "rating": 2,
+    "date": "2025-12-01",
+    "comment": "Compliance documents did not match delivered product; account later suspended."
+  },
+  {
+    "id": "INT-008",
+    "entity_id": "SUP-012",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 3,
+    "date": "2026-02-01",
+    "comment": "Order delayed because actual capacity was lower than listed."
+  },
+  {
+    "id": "INT-009",
+    "entity_id": "PRO-001",
+    "entity_type": "professional",
+    "opportunity_id": null,
+    "interaction_type": "project",
+    "rating": 5,
+    "date": "2026-01-15",
+    "comment": "Outstanding packaging design work, delivered on time."
+  },
+  {
+    "id": "INT-010",
+    "entity_id": "PRO-002",
+    "entity_type": "professional",
+    "opportunity_id": null,
+    "interaction_type": "project",
+    "rating": 5,
+    "date": "2025-10-05",
+    "comment": "Thorough FSSAI audit, caught issues we had missed."
+  },
+  {
+    "id": "INT-011",
+    "entity_id": "PRO-004",
+    "entity_type": "professional",
+    "opportunity_id": null,
+    "interaction_type": "project",
+    "rating": 5,
+    "date": "2026-03-20",
+    "comment": "Clean code, delivered dashboard ahead of schedule."
+  },
+  {
+    "id": "INT-012",
+    "entity_id": "PRO-017",
+    "entity_type": "professional",
+    "opportunity_id": null,
+    "interaction_type": "project",
+    "rating": 4,
+    "date": "2025-06-11",
+    "comment": "Solid engineering work before leaving the platform."
+  },
+  {
+    "id": "INT-013",
+    "entity_id": "SUP-022",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 3,
+    "date": "2026-01-08",
+    "comment": "Good product, but delivery took 5 weeks \u2014 longer than agreed."
+  },
+  {
+    "id": "INT-014",
+    "entity_id": "SUP-004",
+    "entity_type": "supplier",
+    "opportunity_id": null,
+    "interaction_type": "order",
+    "rating": 5,
+    "date": "2026-02-28",
+    "comment": "Consistent large-scale knitwear exporter, no issues across 3 orders."
+  },
+  {
+    "id": "INT-015",
+    "entity_id": "OPP-010",
+    "entity_type": "opportunity",
+    "opportunity_id": "OPP-010",
+    "interaction_type": "closure",
+    "rating": null,
+    "date": "2026-06-15",
+    "comment": "Requirement fulfilled by SUP-023; opportunity closed."
+  }
+]

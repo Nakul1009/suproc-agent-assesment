@@ -1,128 +1,314 @@
 [
   {
     "id": "OPP-001",
-    "title": "Biodegradable Food Container Sourcing",
-    "client": "EcoFood India",
-    "description": "Looking for suppliers of food-grade biodegradable containers, initial order 10,000 units.",
+    "title": "Biodegradable food containers \u2014 initial 10,000 unit order",
+    "type": "procurement_requirement",
     "entity_type": "opportunity",
-    "locations": ["Karnataka", "Tamil Nadu", "Kerala", "Andhra Pradesh"],
-    "budget": 200000,
-    "required_capacity": 10000,
-    "deadline_days": 30,
+    "category": "Food Packaging",
+    "description": "Sustainable food-packaging startup based in Bengaluru needs food-grade biodegradable containers, initial order of 10,000 units, delivery within 30 days.",
+    "required_certifications": [
+      "food-grade"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "budget": {
+      "min": 150000,
+      "max": 400000,
+      "currency": "INR"
+    },
+    "quantity_needed": 10000,
+    "deadline": "2026-08-02",
+    "posted_by": "BUS-001",
     "status": "open",
-    "reputation_required": "good"
+    "assigned_to": null,
+    "notes": null
   },
   {
     "id": "OPP-002",
-    "title": "Sustainable Packaging Designer Need",
-    "client": "GreenPack Bengaluru",
-    "description": "Need a freelance Packaging Designer to design plant starch based containers.",
+    "title": "Build an internal inventory dashboard",
+    "type": "bounty",
     "entity_type": "opportunity",
-    "locations": ["Karnataka", "Bengaluru"],
-    "budget": 50000,
-    "skills_required": ["packaging design", "sustainable design"],
-    "deadline_days": 15,
-    "status": "open"
+    "category": "IT & Software Services",
+    "description": "Bounty for building a React + Node.js internal inventory tracking dashboard for a mid-size distributor.",
+    "required_certifications": [],
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "budget": {
+      "min": 40000,
+      "max": 80000,
+      "currency": "INR"
+    },
+    "quantity_needed": null,
+    "deadline": "2026-07-25",
+    "posted_by": "BUS-005",
+    "status": "open",
+    "assigned_to": null,
+    "notes": null
   },
   {
     "id": "OPP-003",
-    "title": "Bounty: Biodegradability Testing Tool",
-    "client": "BioLabs Chennai",
-    "description": "Develop a python script to validate material compostability rates based on inputs.",
+    "title": "Warehouse construction consulting",
+    "type": "project",
     "entity_type": "opportunity",
-    "locations": ["Tamil Nadu"],
-    "budget": 15000,
-    "skills_required": ["Python", "data analysis"],
-    "deadline_days": 7,
-    "status": "open"
+    "category": "Construction Materials",
+    "description": "Project to consult on the construction of a 20,000 sq ft warehouse near Jaipur.",
+    "required_certifications": [
+      "BIS"
+    ],
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "budget": {
+      "min": 500000,
+      "max": 1200000,
+      "currency": "INR"
+    },
+    "quantity_needed": null,
+    "deadline": "2026-10-01",
+    "posted_by": "BUS-011",
+    "status": "open",
+    "assigned_to": null,
+    "notes": null
   },
   {
     "id": "OPP-004",
-    "title": "Logistics Partner Search",
-    "client": "QuickShip Foods",
-    "description": "Looking for logistics professionals to optimize food container supply routes.",
+    "title": "Export-grade textile packaging",
+    "type": "procurement_requirement",
     "entity_type": "opportunity",
-    "locations": ["Telangana", "Andhra Pradesh"],
-    "budget": 120000,
-    "skills_required": ["logistics"],
-    "deadline_days": 45,
-    "status": "open"
+    "category": "Textile & Apparel",
+    "description": "Textile exporter in Tiruppur needs export-grade poly-wrap packaging for knitwear shipments.",
+    "required_certifications": [
+      "OEKO-TEX"
+    ],
+    "location": {
+      "city": "Tiruppur",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "budget": {
+      "min": 60000,
+      "max": 150000,
+      "currency": "INR"
+    },
+    "quantity_needed": 25000,
+    "deadline": "2026-09-01",
+    "posted_by": "BUS-004",
+    "status": "open",
+    "assigned_to": null,
+    "notes": null
   },
   {
     "id": "OPP-005",
-    "title": "Eco-friendly Catering Supplies",
-    "client": "Karnataka Tourism",
-    "description": "Procurement of 50,000 units of biodegradable catering trays within 20 days.",
+    "title": "Supply chain sustainability audit",
+    "type": "bounty",
     "entity_type": "opportunity",
-    "locations": ["Karnataka"],
-    "budget": 800000,
-    "required_capacity": 50000,
-    "deadline_days": 20,
-    "status": "open"
+    "category": "Sustainability Consulting",
+    "description": "Bounty for a sustainability consultant to audit a manufacturer's supply chain and produce an ESG report.",
+    "required_certifications": [
+      "GRI Certified"
+    ],
+    "location": {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "budget": null,
+    "quantity_needed": null,
+    "deadline": "2026-08-20",
+    "posted_by": "BUS-008",
+    "status": "open",
+    "assigned_to": null,
+    "notes": "INCOMPLETE RECORD: budget field is null \u2014 poster has not specified a budget range yet."
   },
   {
     "id": "OPP-006",
-    "title": "ISO 22000 Certification Consultant",
-    "client": "PackCo Mysore",
-    "description": "Professional consultant needed to prep factory for food safety standards audit.",
+    "title": "Urgent electronics component sourcing",
+    "type": "procurement_requirement",
     "entity_type": "opportunity",
-    "locations": ["Karnataka", "Mysore"],
-    "budget": 90000,
-    "skills_required": ["iso audits", "quality control"],
-    "deadline_days": 60,
-    "status": "open"
+    "category": "Electronics Components",
+    "description": "Hardware startup needs PCB assembly components sourced. Listed deadline is 2026-08-01, but the requester's message says 'we need this within 10 days, it's urgent.'",
+    "required_certifications": [
+      "RoHS"
+    ],
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India"
+    },
+    "budget": {
+      "min": 80000,
+      "max": 200000,
+      "currency": "INR"
+    },
+    "quantity_needed": 5000,
+    "deadline": "2026-08-01",
+    "posted_by": "BUS-012",
+    "status": "open",
+    "assigned_to": null,
+    "notes": "CONFLICTING REQUIREMENT: the structured deadline field (2026-08-01, ~4 weeks out) conflicts with the requester's free-text note describing the need as urgent within 10 days."
   },
   {
     "id": "OPP-007",
-    "title": "Duplicate Opportunity",
-    "client": "DupCorp",
-    "description": "Duplicate opportunity testing record.",
+    "title": "Solar installation equipment procurement",
+    "type": "procurement_requirement",
     "entity_type": "opportunity",
-    "locations": ["Kerala"],
-    "budget": 30000,
-    "deadline_days": 30,
-    "status": "open"
+    "category": "Renewable Energy Equipment",
+    "description": "Housing complex developer needs solar panels and inverters for a rooftop installation.",
+    "required_certifications": [
+      "MNRE-approved"
+    ],
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "budget": {
+      "min": 300000,
+      "max": 600000,
+      "currency": "INR"
+    },
+    "quantity_needed": 200,
+    "deadline": "2026-09-15",
+    "posted_by": "BUS-015",
+    "status": "open",
+    "assigned_to": null,
+    "notes": null
   },
   {
-    "id": "OPP-007",
-    "title": "Duplicate Opportunity",
-    "client": "DupCorp",
-    "description": "Duplicate opportunity testing record.",
+    "id": "OPP-008",
+    "title": "Marketing campaign for D2C launch",
+    "type": "bounty",
     "entity_type": "opportunity",
-    "locations": ["Kerala"],
-    "budget": 30000,
-    "deadline_days": 30,
-    "status": "open"
+    "category": "Marketing",
+    "description": "Bounty for designing and running a performance marketing campaign for a new D2C food brand launch.",
+    "required_certifications": [],
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "budget": {
+      "min": 50000,
+      "max": 100000,
+      "currency": "INR"
+    },
+    "quantity_needed": null,
+    "deadline": "2026-07-30",
+    "posted_by": "BUS-001",
+    "status": "open",
+    "assigned_to": null,
+    "notes": null
   },
   {
     "id": "OPP-009",
-    "title": "Incomplete Opportunity",
-    "client": "Mystery Brands",
-    "description": "Urgent procurement need.",
+    "title": "Legal review of supplier contracts",
+    "type": "project",
     "entity_type": "opportunity",
-    "status": "open"
+    "category": "Legal Services",
+    "description": "Startup needs legal review of three draft supplier procurement agreements.",
+    "required_certifications": [],
+    "location": {
+      "city": "Gurugram",
+      "state": "Delhi NCR",
+      "country": "India"
+    },
+    "budget": {
+      "min": 20000,
+      "max": 40000,
+      "currency": "INR"
+    },
+    "quantity_needed": null,
+    "deadline": "2026-07-20",
+    "posted_by": "BUS-006",
+    "status": "in_progress",
+    "assigned_to": "PRO-999",
+    "notes": "INVALID REFERENCE: assigned_to points to PRO-999, which does not exist in professionals.json. Tools must detect and report this rather than silently trusting the reference."
   },
   {
     "id": "OPP-010",
-    "title": "Closed Procurement Project",
-    "client": "Old Pack Co",
-    "description": "Supply of standard boxes.",
+    "title": "Medical device component sourcing",
+    "type": "procurement_requirement",
     "entity_type": "opportunity",
-    "locations": ["Karnataka"],
-    "budget": 100000,
-    "deadline_days": 10,
-    "status": "closed"
+    "category": "Medical Devices",
+    "description": "Sourcing of ISO13485-compliant components for a diagnostic device manufacturer. Requirement has already been fulfilled.",
+    "required_certifications": [
+      "ISO13485"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "budget": {
+      "min": 200000,
+      "max": 500000,
+      "currency": "INR"
+    },
+    "quantity_needed": 1000,
+    "deadline": "2026-06-15",
+    "posted_by": "BUS-018",
+    "status": "closed",
+    "assigned_to": "SUP-023",
+    "notes": null
   },
   {
     "id": "OPP-011",
-    "title": "North India Packaging Sourcing",
-    "client": "Delhi FastFood",
-    "description": "Biodegradable bowl supplies for Delhi NCR franchise. Needs 10,000 units.",
+    "title": "General manufacturing support needed",
+    "type": "project",
     "entity_type": "opportunity",
-    "locations": ["Delhi"],
-    "budget": 150000,
-    "required_capacity": 10000,
-    "deadline_days": 25,
-    "status": "open"
+    "category": "General Manufacturing Support",
+    "description": "Vaguely scoped request for 'general manufacturing help' without specifying a product category, quantity, or certification requirement.",
+    "required_certifications": [],
+    "location": {
+      "city": null,
+      "state": null,
+      "country": "India"
+    },
+    "budget": {
+      "min": null,
+      "max": null,
+      "currency": "INR"
+    },
+    "quantity_needed": null,
+    "deadline": null,
+    "posted_by": "BUS-020",
+    "status": "open",
+    "assigned_to": null,
+    "notes": "AMBIGUOUS RECORD: category, location, budget, and deadline are all unspecified or overly broad \u2014 a genuine test of the agent's ability to flag missing information rather than guessing."
+  },
+  {
+    "id": "OPP-012",
+    "title": "Biodegradable food containers \u2014 startup packaging order",
+    "type": "procurement_requirement",
+    "entity_type": "opportunity",
+    "category": "Food Packaging",
+    "description": "Same Bengaluru sustainable-packaging startup re-posted its container requirement with slightly reworded text.",
+    "required_certifications": [
+      "food-grade"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "budget": {
+      "min": 150000,
+      "max": 400000,
+      "currency": "INR"
+    },
+    "quantity_needed": 10000,
+    "deadline": "2026-08-02",
+    "posted_by": "BUS-001",
+    "status": "open",
+    "assigned_to": null,
+    "notes": "DUPLICATE RECORD: near-identical to OPP-001 \u2014 same poster, same requirement, re-posted under a new opportunity ID."
   }
 ]

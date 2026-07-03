@@ -1,10 +1,23 @@
 {
-  "name": "Suproc Synthetic Dataset",
-  "version": "1.0.0",
-  "description": "Synthetic dataset for businesses, suppliers, professionals and opportunities, including incomplete/ambiguous and prompt-injected records.",
-  "files": {
-    "suppliers": "data/suppliers.json",
-    "professionals": "data/professionals.json",
-    "opportunities": "data/opportunities.json"
-  }
+  "dataset_name": "SUPROC synthetic local dataset",
+  "version": "1.0",
+  "entity_files": {
+    "suppliers": "suppliers.json",
+    "professionals": "professionals.json",
+    "opportunities": "opportunities.json",
+    "interactions": "interactions.json"
+  },
+  "counts": {
+    "suppliers": 32,
+    "professionals": 17,
+    "opportunities": 12,
+    "interactions": 15
+  },
+  "id_prefixes": {
+    "supplier": "SUP-",
+    "professional": "PRO-",
+    "opportunity": "OPP-",
+    "interaction": "INT-"
+  },
+  "note": "Synthetic data generated for the SUPROC assignment. Not real production data."
 }
