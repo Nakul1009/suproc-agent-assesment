@@ -2,8 +2,7 @@
 A lightweight AI agent that understands a business request, searches a local Suproc-style dataset, verifies its recommendations and prepares the next action without performing it automatically.
 
 
-
-suproc_agent/
+-suproc_agent/
 │
 ├── config.py                 # System configurations and environmental keys
 ├── main.py                   # CLI entrypoint and Human-In-The-Loop loop
