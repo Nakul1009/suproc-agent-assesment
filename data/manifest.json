@@ -1,0 +1,10 @@
+{
+  "name": "Suproc Synthetic Dataset",
+  "version": "1.0.0",
+  "description": "Synthetic dataset for businesses, suppliers, professionals and opportunities, including incomplete/ambiguous and prompt-injected records.",
+  "files": {
+    "suppliers": "data/suppliers.json",
+    "professionals": "data/professionals.json",
+    "opportunities": "data/opportunities.json"
+  }
+}

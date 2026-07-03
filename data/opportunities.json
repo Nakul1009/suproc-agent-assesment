@@ -1,0 +1,128 @@
+[
+  {
+    "id": "OPP-001",
+    "title": "Biodegradable Food Container Sourcing",
+    "client": "EcoFood India",
+    "description": "Looking for suppliers of food-grade biodegradable containers, initial order 10,000 units.",
+    "entity_type": "opportunity",
+    "locations": ["Karnataka", "Tamil Nadu", "Kerala", "Andhra Pradesh"],
+    "budget": 200000,
+    "required_capacity": 10000,
+    "deadline_days": 30,
+    "status": "open",
+    "reputation_required": "good"
+  },
+  {
+    "id": "OPP-002",
+    "title": "Sustainable Packaging Designer Need",
+    "client": "GreenPack Bengaluru",
+    "description": "Need a freelance Packaging Designer to design plant starch based containers.",
+    "entity_type": "opportunity",
+    "locations": ["Karnataka", "Bengaluru"],
+    "budget": 50000,
+    "skills_required": ["packaging design", "sustainable design"],
+    "deadline_days": 15,
+    "status": "open"
+  },
+  {
+    "id": "OPP-003",
+    "title": "Bounty: Biodegradability Testing Tool",
+    "client": "BioLabs Chennai",
+    "description": "Develop a python script to validate material compostability rates based on inputs.",
+    "entity_type": "opportunity",
+    "locations": ["Tamil Nadu"],
+    "budget": 15000,
+    "skills_required": ["Python", "data analysis"],
+    "deadline_days": 7,
+    "status": "open"
+  },
+  {
+    "id": "OPP-004",
+    "title": "Logistics Partner Search",
+    "client": "QuickShip Foods",
+    "description": "Looking for logistics professionals to optimize food container supply routes.",
+    "entity_type": "opportunity",
+    "locations": ["Telangana", "Andhra Pradesh"],
+    "budget": 120000,
+    "skills_required": ["logistics"],
+    "deadline_days": 45,
+    "status": "open"
+  },
+  {
+    "id": "OPP-005",
+    "title": "Eco-friendly Catering Supplies",
+    "client": "Karnataka Tourism",
+    "description": "Procurement of 50,000 units of biodegradable catering trays within 20 days.",
+    "entity_type": "opportunity",
+    "locations": ["Karnataka"],
+    "budget": 800000,
+    "required_capacity": 50000,
+    "deadline_days": 20,
+    "status": "open"
+  },
+  {
+    "id": "OPP-006",
+    "title": "ISO 22000 Certification Consultant",
+    "client": "PackCo Mysore",
+    "description": "Professional consultant needed to prep factory for food safety standards audit.",
+    "entity_type": "opportunity",
+    "locations": ["Karnataka", "Mysore"],
+    "budget": 90000,
+    "skills_required": ["iso audits", "quality control"],
+    "deadline_days": 60,
+    "status": "open"
+  },
+  {
+    "id": "OPP-007",
+    "title": "Duplicate Opportunity",
+    "client": "DupCorp",
+    "description": "Duplicate opportunity testing record.",
+    "entity_type": "opportunity",
+    "locations": ["Kerala"],
+    "budget": 30000,
+    "deadline_days": 30,
+    "status": "open"
+  },
+  {
+    "id": "OPP-007",
+    "title": "Duplicate Opportunity",
+    "client": "DupCorp",
+    "description": "Duplicate opportunity testing record.",
+    "entity_type": "opportunity",
+    "locations": ["Kerala"],
+    "budget": 30000,
+    "deadline_days": 30,
+    "status": "open"
+  },
+  {
+    "id": "OPP-009",
+    "title": "Incomplete Opportunity",
+    "client": "Mystery Brands",
+    "description": "Urgent procurement need.",
+    "entity_type": "opportunity",
+    "status": "open"
+  },
+  {
+    "id": "OPP-010",
+    "title": "Closed Procurement Project",
+    "client": "Old Pack Co",
+    "description": "Supply of standard boxes.",
+    "entity_type": "opportunity",
+    "locations": ["Karnataka"],
+    "budget": 100000,
+    "deadline_days": 10,
+    "status": "closed"
+  },
+  {
+    "id": "OPP-011",
+    "title": "North India Packaging Sourcing",
+    "client": "Delhi FastFood",
+    "description": "Biodegradable bowl supplies for Delhi NCR franchise. Needs 10,000 units.",
+    "entity_type": "opportunity",
+    "locations": ["Delhi"],
+    "budget": 150000,
+    "required_capacity": 10000,
+    "deadline_days": 25,
+    "status": "open"
+  }
+]
