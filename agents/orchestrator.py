@@ -71,7 +71,7 @@ def execute_workflow(user_prompt: str) -> dict:
     context_pool = [
         {
             "id": e.get("id"), 
-            "name": e.get("name"), 
+            "name": e.get("name") or e.get("title"), 
             "certifications": e.get("certifications"),
             "capacity": e.get("max_monthly_capacity"),
             "delivery_days": e.get("max_delivery_days"),
@@ -152,7 +152,7 @@ def build_final_response(req: BusinessRequirement, plan: ExecutionPlan, proposal
         score_data = calculate_match_score(entity_data, req.model_dump()) 
         
         final_recs.append({
-            "entity": entity_data.get("name"),
+            "entity": entity_data.get("name") or entity_data.get("title"), # <--- Add the fallback here
             "id": rec.entity_id,
             "justification": rec.justification,
             "score_breakdown": score_data["breakdown"]

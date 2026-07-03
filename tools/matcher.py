@@ -9,14 +9,14 @@ def filter_by_constraints(entities: list[dict], constraints: dict) -> list[dict]
         is_valid = True
         
         # 1. Location Constraint (e.g., South Indian states)
-        req_locations = constraints.get("locations", [])
+        req_locations = constraints.get("locations") or []
         if req_locations:
             entity_state = entity.get("location", {}).get("state")
             if entity_state not in req_locations:
                 continue
                 
         # 2. Certification Constraint (Catches the SUP-014 missing cert trap)
-        req_certs = constraints.get("certifications", [])
+        req_certs = constraints.get("certifications") or []
         if req_certs:
             entity_certs = entity.get("certifications") or []
             if not all(cert in entity_certs for cert in req_certs):

@@ -25,12 +25,20 @@ def validate_recommendations(recommended_ids: list[str], constraints: dict, requ
             failures.append(f"Entity {entity_id} does not exist in the dataset.")
             continue
             
-        # 4. Active Status Check (Catches the SUP-025 suspended trap)
-        if entity.get("status") != "active":
-            failures.append(f"Entity {entity_id} is not active (Status: {entity.get('status')}).")
+       # 4. Active Status Check (Context-Aware)
+        current_status = entity.get("status")
+        
+        if entity_id.startswith("OPP-"):
+            # Opportunities must be "open" to be valid recommendations
+            if current_status != "open":
+                failures.append(f"Opportunity {entity_id} is not open for bidding (Status: {current_status}).")
+        else:
+            # Suppliers and Professionals must be "active"
+            if current_status != "active":
+                failures.append(f"Entity {entity_id} is not active (Status: {current_status}).")
             
         # 5. Hard Constraints Re-Verification
-        req_certs = constraints.get("certifications", [])
+        req_certs = constraints.get("certifications") or []
         entity_certs = entity.get("certifications") or []
         for cert in req_certs:
             if cert not in entity_certs:
