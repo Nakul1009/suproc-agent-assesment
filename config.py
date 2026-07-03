@@ -9,9 +9,9 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
-# LLM Configuration
-HF_TOKEN = os.getenv("HF_TOKEN")
-DEFAULT_MODEL = "Qwen/Qwen3-4B-Instruct-2507:nscale"
+# LLM Configuration (NVIDIA NIM)
+NVIDIA_API_KEY = os.getenv("api")
+DEFAULT_MODEL = "qwen/qwen3-next-80b-a3b-instruct"
 
 # Ensure data directory exists
 DATA_DIR.mkdir(parents=True, exist_ok=True)
