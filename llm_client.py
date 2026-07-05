@@ -4,31 +4,28 @@ from typing import Optional, Type, TypeVar
 from pydantic import BaseModel, ValidationError
 from openai import OpenAI
 
-# Import the new keys from your config file
-from config import NVIDIA_API_KEY, DEFAULT_MODEL
+from config import OLLAMA_BASE_URL, DEFAULT_MODEL
 
 # Type variable for Pydantic generics
 T = TypeVar('T', bound=BaseModel)
 
-# Initialize the OpenAI client pointing to NVIDIA's endpoints
+# Initialize the OpenAI client pointing to LOCAL OLLAMA
 client = OpenAI(
-  base_url="https://integrate.api.nvidia.com/v1",
-  api_key=NVIDIA_API_KEY
+    base_url=OLLAMA_BASE_URL,
+    api_key="ollama" # The SDK requires a string here, but Ollama ignores it
 )
 
 def llm_call(
     prompt: str, 
     schema: Optional[Type[T]] = None, 
-    temperature: float = 0.6,
+    temperature: float = 0.1, # DROPPED TEMPERATURE: crucial for small local models
     max_retries: int = 3
 ) -> str | T:
     """
-    Core LLM execution using NVIDIA's API.
-    If a Pydantic schema is provided, it forces structured JSON output.
+    Core LLM execution using local Ollama.
     """
     messages = []
     
-    # Force the 80B model into strict JSON extraction mode if needed
     if schema:
         schema_json = schema.model_json_schema()
         system_msg = (
@@ -44,25 +41,23 @@ def llm_call(
     attempt = 0
     while attempt < max_retries:
         try:
-            # Fire the request to NVIDIA
+            # Fire the request to localhost
             completion = client.chat.completions.create(
                 model=DEFAULT_MODEL,
                 messages=messages,
-                temperature=temperature,
-                top_p=0.7,
-                max_tokens=4096,
+                temperature=temperature, # Kept low for deterministic JSON
                 stream=False
             )
             
             result_text = completion.choices[0].message.content.strip()
             
-            # Clean up rogue markdown formatting if the model gets chatty
+            # Clean up rogue markdown formatting
             if result_text.startswith("```json"):
                 result_text = result_text.strip("```json").strip("```").strip()
             elif result_text.startswith("```"):
                 result_text = result_text.strip("```").strip()
 
-            # Enforce Pydantic validation before returning to the Orchestrator
+            # Enforce Pydantic validation
             if schema:
                 return schema.model_validate_json(result_text)
                 
@@ -70,21 +65,14 @@ def llm_call(
 
         except ValidationError as e:
             attempt += 1
-            print(f"[WARNING] Model drifted from schema. Retrying... ({attempt}/{max_retries})")
+            print(f"[WARNING] Local model drifted from schema. Retrying... ({attempt}/{max_retries})")
             if attempt == max_retries:
-                print(f"[FATAL] Schema validation failed. Raw Output:\n{result_text}")
+                print(f"[FATAL] Schema validation failed after {max_retries} attempts. Raw Output:\n{result_text}")
                 raise e
                 
         except Exception as e:
             attempt += 1
-            error_msg = str(e).lower()
-            
-            # If NVIDIA rate limits us or times out, use exponential backoff
-            if "429" in error_msg or "timeout" in error_msg:
-                wait_time = 2 ** attempt
-                print(f"[WARNING] NVIDIA API stressed. Sleeping {wait_time}s... ({attempt}/{max_retries})")
-                time.sleep(wait_time)
-            else:
-                print(f"[ERROR] API Call Failed: {str(e)}")
-                if attempt == max_retries:
-                    raise e
+            print(f"[ERROR] Ollama API Call Failed: {str(e)}. Is Ollama running?")
+            time.sleep(1) # Short sleep before retry
+            if attempt == max_retries:
+                raise e

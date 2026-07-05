@@ -1,21 +1,5 @@
 import pytest
 
-import time
-import pytest
-
-@pytest.fixture(autouse=True)
-def rate_limit_cooldown():
-    """
-    Automatically pauses execution AFTER every test
-    to prevent the LLM inference engine from going kaboom.
-    """
-    yield  # This lets the actual test execute first
-    
-    # Adjust this number based on how angry your API/Hardware is getting
-    cooldown_seconds = 5
-    print(f"\n[Cooldown] Sleeping for {cooldown_seconds}s to let the inference engine breathe...")
-    time.sleep(cooldown_seconds)
-
 def pytest_terminal_summary(terminalreporter, exitstatus, config):
     """
     Hooks into Pytest's terminal summary to generate the exact 
