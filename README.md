@@ -1,4 +1,3 @@
-Set-Content -Path "d:\SUPROC-ASSESMENT\suproc-agent-assesment\README.md" -Encoding UTF8 -Value @'
 # 🤖 SUPROC AI Matching Agent
 
 > A fully local, privacy-first AI agent that interprets natural-language business requirements, searches a curated procurement dataset, scores and ranks candidates, self-corrects invalid recommendations, and gates every action behind a **human-in-the-loop approval step** — all without a single cloud API call.
